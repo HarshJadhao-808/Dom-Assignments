@@ -1,0 +1,17 @@
+#main{
+    width: 90%;
+    margin: auto;
+}
+#main_box{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 50px;
+    text-align: center;
+}
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.logo{
+    width: 200px;
+}
