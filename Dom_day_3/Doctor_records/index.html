@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor records</title>
+</head>
+<link rel="stylesheet" href="./bigstyle.css">
+<body>
+    
+  <header>
+    <h1><strong>HOSPITAL - DOCTOR RECORDS</strong></h1>
+  </header>
+
+  <div class="container">
+    <form id="form">
+      <label>Doctor Name</label>
+      <input type="text" id="name">
+
+      <label for="doctor ID">Doctor ID</label>
+      <input type="text" id="doctor_id" >
+
+      <label for="specialization">Specialization</label>
+      <select id="specialization">
+        <option value="Dermatologist">Dermatologist</option>
+        <option value="ENT">ENT</option>
+        <option value="COVID">COVID</option>
+        <option value="General">General</option>
+      </select>
+
+      <label for="experience">Experience</label>
+      <input type="number" id="experience" >
+
+      <label for="email">Email Address</label>
+      <input type="email" id="e_mail" >
+
+      <label for="mobile">Mobile Number</label>
+      <input type="text" id="mobile_no" >
+
+      <button type="submit">Submit</button>
+    </form>
+<div id="table_div">
+    <table id="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Doctor ID</th>
+          <th>Specialization</th>
+          <th>Experience in years</th>
+          <th>Email address</th>
+          <th>Mobile Number</th>
+          <th>Role</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+       
+      </tbody>
+    </table>
+</div>
+  
+  </div>
+
+
+</body>
+<script src="./index.js"></script>
+</html>
